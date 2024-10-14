@@ -10,6 +10,6 @@ const Display = () => {
             </Routes>
         </div>
     )
-}
+};
 
 export default Display
