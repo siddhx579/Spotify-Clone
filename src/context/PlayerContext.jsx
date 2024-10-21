@@ -36,17 +36,17 @@ const PlayerContextProvider = (props) => {
             audioRef.current.ontimeUpdate = () => {
                 setTime({
                     currentTime: {
-                        second:0,
-                        minute:0
+                        second: Math.floor(audioRef.current.currentTime % 60),
+                        minute: Math.floor(audioRef.current.currentTime / 60)
                     },
                     totalTime: {
-                        second: 0,
-                        minute: 0
+                        second: Math.floor(audioRef.current.duration % 60),
+                        minute: Math.floor(audioRef.current.duration / 60)
                     }
                 }) 
             }
         }, 1000);
-    }, [audioRef])
+    }, [audioRef]);
 
     const contextValue = {
         audioRef,
