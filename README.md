@@ -50,6 +50,7 @@ This is a full-featured responsive Spotify clone built using the MERN stack (Mon
 
 4. Install Dependencies:
 
+   ```bash
    # Frontend
     cd Frontend
     npm install
@@ -67,6 +68,7 @@ This is a full-featured responsive Spotify clone built using the MERN stack (Mon
 
 6. Run the project:
 
+   ```bash
    # Start Backend
     cd Backend
     npm run server
