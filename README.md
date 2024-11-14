@@ -1,6 +1,9 @@
 # Spotify Clone
 
-A Spotify clone application built using the MERN stack (MongoDB, Express.js, React, and Node.js) with three main modules: Frontend, Backend, and Admin.
+This is a full-featured responsive Spotify clone built using the MERN stack (MongoDB, Express.js, React, and Node.js). The project aims to replicate core Spotify functionalities, allowing users to browse, play, and manage music content in a seamless and interactive interface. The application is divided into three main modules:
+- **Frontend**: The user-facing module where users can explore music and create playlists.
+- **Backend**: The server-side API, music streaming, and database operations.
+- **Admin**: An administrative dashboard to manage the music content and other configurations.
 
 ## Features
 - Search and browse songs, albums, and artists
@@ -37,8 +40,8 @@ A Spotify clone application built using the MERN stack (MongoDB, Express.js, Rea
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/siddhx579/spotify-clone.git
-   cd spotify-clone
+   git clone https://github.com/siddhx579/Spotify-Clone.git
+   cd Spotify-Clone
 
 2. Set up environment variables:
 
@@ -81,8 +84,8 @@ A Spotify clone application built using the MERN stack (MongoDB, Express.js, Rea
    - Admin: http://localhost:5174/
 
 8. Folder Structure:
-
    Spotify-Clone/
-   ├── Frontend/        # React app for users
-   ├── Backend/         # Express server with APIs
-   └── Admin/           # React app for admin management
+├── Frontend/        # React app for users
+├── Backend/         # Express server with APIs
+└── Admin/           # React app for admin management
+
