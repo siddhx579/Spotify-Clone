@@ -1,4 +1,5 @@
 import { createContext, useEffect, useRef, useState } from "react";
+// import { songsData } from "../assets/assets";
 import axios from 'axios'
 
 export const PlayerContext = createContext();
@@ -24,7 +25,8 @@ const PlayerContextProvider = (props) => {
             second: 0,
             minute: 0
         }
-    });
+    })
+
 
     const play = () => {
         audioRef.current.play();
@@ -116,7 +118,7 @@ const PlayerContextProvider = (props) => {
         getSongsData()
         getAlbumsData()
 
-     }, [])
+    }, [])
 
     const contextValue = {
         audioRef,
