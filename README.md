@@ -91,3 +91,7 @@ This is a full-featured responsive Spotify clone built using the MERN stack (Mon
 ├── Backend/         # Express server with APIs
 └── Admin/           # React app for admin management
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
